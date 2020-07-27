@@ -1,0 +1,72 @@
+/*
+  => Estilo que será aplicado no elemento pai
+     herdado pelos elementos filhos
+*/
+/* body {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.itens {
+  display: inline;
+}
+
+*/
+/*
+  Div => por padrão tem display block
+*/
+* {}
+
+
+body {
+  font-family: 'Open Sans Condensed', sans-serif;
+  background-color: #f2cbc226;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 12;
+  color: #73403C;
+  text-decoration: underline #D9A79C;
+  text-align: center;
+}
+
+h2 {
+  color: #73403C;
+  text-decoration: underline #D9A79C;
+}
+
+.box-block {
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+  padding: 10px;
+  max-width: 100%;
+  text-align: center;
+  box-shadow: 4px 5px 6px #f2cbc2;
+}
+
+.item-box-block {
+  border: 1px solid grey;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 10px;
+  display: block;
+}
+
+.box-flex {
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+  padding: 10px;
+  max-width: 100%;
+  text-align: center;
+  display: flex;
+  box-shadow: 4px 5px 6px #f2cbc2;
+}
+
+.item-box-flex {
+  border: 1px solid grey;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 10px;
+}
