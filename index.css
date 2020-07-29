@@ -16,8 +16,6 @@
 /*
   Div => por padrão tem display block
 */
-* {}
-
 
 body {
   font-family: 'Open Sans Condensed', sans-serif;
@@ -37,6 +35,14 @@ h2 {
   text-decoration: underline #D9A79C;
 }
 
+.item-box {
+  border: 1px solid grey;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 10px;
+  display: block;
+}
+
 .box-block {
   border: 1px solid lightgrey;
   border-radius: 5px;
@@ -44,14 +50,6 @@ h2 {
   max-width: 100%;
   text-align: center;
   box-shadow: 4px 5px 6px #f2cbc2;
-}
-
-.item-box-block {
-  border: 1px solid grey;
-  border-radius: 5px;
-  padding: 5px;
-  margin: 10px;
-  display: block;
 }
 
 .box-flex {
@@ -64,9 +62,148 @@ h2 {
   box-shadow: 4px 5px 6px #f2cbc2;
 }
 
-.item-box-flex {
-  border: 1px solid grey;
+
+.box-flex-direction-row {
+  border: 1px solid lightgrey;
   border-radius: 5px;
-  padding: 5px;
-  margin: 10px;
+  padding: 10px;
+  max-width: 100%;
+  text-align: center;
+  display: flex;
+  box-shadow: 4px 5px 6px #f2cbc2;
+  flex-direction: row;
+}
+
+.box-flex-direction-row-reverse {
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+  padding: 10px;
+  max-width: 100%;
+  text-align: center;
+  display: flex;
+  box-shadow: 4px 5px 6px #f2cbc2;
+  flex-direction: row-reverse;
+}
+
+.box-flex-direction-column {
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+  padding: 10px;
+  max-width: 100%;
+  text-align: center;
+  display: flex;
+  box-shadow: 4px 5px 6px #f2cbc2;
+  flex-direction: column;
+}
+
+.box-flex-direction-column-reverse {
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+  padding: 10px;
+  max-width: 100%;
+  text-align: center;
+  display: flex;
+  box-shadow: 4px 5px 6px #f2cbc2;
+  flex-direction: column-reverse;
+}
+
+.box-flex-flow-row-nowrap {
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+  padding: 10px;
+  max-width: 100%;
+  text-align: center;
+  display: flex;
+  box-shadow: 4px 5px 6px #f2cbc2;
+  flex-flow: row nowrap;
+}
+
+.box-flex-flow-row-wrap {
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+  padding: 10px;
+  max-width: 100%;
+  text-align: center;
+  display: flex;
+  box-shadow: 4px 5px 6px #f2cbc2;
+  flex-flow: row wrap;
+}
+
+.box-flex-flow-column-nowrap {
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+  padding: 10px;
+  max-width: 100%;
+  text-align: center;
+  display: flex;
+  box-shadow: 4px 5px 6px #f2cbc2;
+  flex-flow: column nowrap;
+}
+
+.box-justify-content-flex-start {
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+  padding: 10px;
+  max-width: 100%;
+  text-align: center;
+  display: flex;
+  box-shadow: 4px 5px 6px #f2cbc2;
+  justify-content: flex-start;
+}
+
+.box-justify-content-flex-end {
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+  padding: 10px;
+  max-width: 100%;
+  text-align: center;
+  display: flex;
+  box-shadow: 4px 5px 6px #f2cbc2;
+  justify-content: flex-end;
+}
+
+.box-justify-content-center {
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+  padding: 10px;
+  max-width: 100%;
+  text-align: center;
+  display: flex;
+  box-shadow: 4px 5px 6px #f2cbc2;
+  justify-content: center;
+}
+
+.box-justify-content-space-between {
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+  padding: 10px;
+  max-width: 100%;
+  text-align: center;
+  display: flex;
+  box-shadow: 4px 5px 6px #f2cbc2;
+  justify-content: space-between;
+}
+
+
+.box-justify-content-space-around {
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+  padding: 10px;
+  max-width: 100%;
+  text-align: center;
+  display: flex;
+  box-shadow: 4px 5px 6px #f2cbc2;
+  justify-content: space-around;
+}
+
+.box-align-items-stretch {
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+  padding: 10px;
+  max-width: 100%;
+  text-align: center;
+  display: flex;
+  box-shadow: 4px 5px 6px #f2cbc2;
+  align-items: stretch;
+  flex-direction: column;
 }
